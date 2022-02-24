@@ -5,11 +5,7 @@ import java.util.List;
 
 public interface ILeaderBoardService {
     
-    /*
-    * sort array based on score
-    *@return sorted ArrayList
-    */
-    ArrayList<Player> sortList();
+   
     
     /* Returns the top leaders with the highest n scores 
     * @return ArrayList of the top n platers
@@ -17,6 +13,7 @@ public interface ILeaderBoardService {
     
     List<Player> topN(int n);
     
+     
       /**
    * converts the players string format.
    *
