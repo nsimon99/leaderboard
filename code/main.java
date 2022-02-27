@@ -30,7 +30,11 @@ public class Main
         players.add(p10);
         players.add(p11);
         Leaderboard lb = new Leaderboard(players);
+        
+        // Please enter desired number here:
         List<Player> result = new ArrayList<Player>(lb.topN(5));
+        
+        //outcome:
         System.out.println(lb.listToString(result));
         
 
